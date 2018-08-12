@@ -55,7 +55,7 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>${maven-war-plugin.version}</version>
 				<configuration>
-					<warName>${project.artifactId}-${project.version}</warName>
+					<warName>${project.artifactId}</warName>
 					<archive>
 						<index>true</index>
 						<manifest>
@@ -81,6 +81,7 @@
 							<goal>single</goal>
 						</goals>
 						<configuration>
+							<finalName>${project.artifactId}</finalName>
 							<encoding>UTF-8</encoding>
 							<appendAssemblyId>false</appendAssemblyId>
 							<descriptors>

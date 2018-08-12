@@ -10,7 +10,7 @@
     <fileSets>
         <fileSet>
             <directory>src/main/statics</directory>
-            <outputDirectory>/</outputDirectory>
+            <outputDirectory></outputDirectory>
         </fileSet>
     </fileSets>
 </assembly>
